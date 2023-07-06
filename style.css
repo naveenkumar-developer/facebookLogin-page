@@ -1,0 +1,197 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* ## HEADER  */
+.header {
+    height: 82px;
+    background-color: rgb(56, 88, 152);
+    display: flex;
+}
+
+.header__content {
+    height: 68.75px;
+    padding-top: 25px;
+    display: flex;
+
+}
+
+.header__heading {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+
+}
+
+.header__link {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: grid;
+    place-content: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400px;
+    color: white;
+    background-color: rgb(66, 183, 42);
+    height: 32px;
+    width: 138.25px;
+    padding: 2px 10px 2px 10px;
+}
+
+.header__link:hover {
+    opacity: 0.8;
+}
+
+/* ##MAIN  */
+
+.main {
+    height: 640px;
+
+
+}
+
+.fb__content_box {
+    height: 462px;
+    padding: 80px 0px;
+    display: grid;
+    justify-content: center;
+    background-color: rgb(233, 235, 238);
+}
+
+.fb__content {
+    display: grid;
+    justify-content: center;
+    /* place-content: center; */
+    width: 614px;
+    height: 302px;
+    padding: 22px 108px 26px;
+    background-color: white;
+}
+
+.fb__heading {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    padding: 6px 0px 6px 0px;
+
+}
+
+.fb__form_container {
+
+    width: 302px;
+    height: 176px;
+}
+
+.fb__form input {
+    height: 34px;
+    width: 302px;
+
+}
+
+.log_in_btn {
+
+    color: white;
+    background-color: rgb(56, 88, 152);
+    font-weight: bold;
+}
+
+.fb__forrgottAndSignup {
+    text-align: center;
+}
+
+.fb__forrgottAndSignup a {
+    color: #385898;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Helvetica, sans-serif;
+
+}
+
+.fb__forrgottAndSignup a:hover,
+.notNow a:hover {
+    text-decoration: underline;
+}
+
+.notNow {
+
+    text-align: center;
+}
+
+.notNow a {
+    color: #385898;
+
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+/* ## FOOTER  */
+
+.page__footer {
+    width: 980px;
+    height: 137px;
+    margin-left: 185px;
+    margin-right: 185px;
+}
+
+.page__footer a {
+    width: auto;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Helvetica, sans-serif;
+    color: #8A8D91;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-color: rgb(138, 141, 145);
+    line-height: 19.02px;
+}
+
+.langSelector {
+    height: 28px;
+}
+
+.langSelector a {
+    padding-right: 10px;
+
+    line-height: 16.08px;
+}
+
+.langSelector__btn {
+    font-size: 15px;
+    font-weight: 800;
+    box-sizing: content-box;
+    background-color: #f5f6f7;
+    color: #4b4f56;
+    padding-inline: 8px;
+    border: 1px solid #ccd0d5;
+    border-radius: 2px;
+    vertical-align: middle;
+}
+
+.otherinformations {
+    line-height: 16.08px;
+    column-gap: 20px;
+    height: 57px;
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+.otherinformations a {
+
+    height: 19.188px;
+    /* padding-left: 20px; */
+}
+
+.copyRights {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    color: #8A8D91;
+    font-weight: bold;
+}
